@@ -1,0 +1,44 @@
+body {
+    background-image: linear-gradient(lightblue 10%, white 90%);
+    background-repeat: no-repeat;
+}
+
+#img {
+    height: 200px;
+    position: absolute;
+    bottom: 0%;
+    right:0%;
+}
+
+.introduce {
+    position: relative;
+    left: 50%;
+    width: 50%;
+}
+
+
+#picture {
+    border: 2px solid black;
+    width: 40%;
+    height: 100%;
+}
+
+#main-picture {
+    height: 400px;
+    padding: 10px;
+    position: relative;
+    
+    
+    
+}
+
+#container {
+    border: 2px solid black;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    flex-direction: row;
+    align-items: center;
+    min-height: 100vh;
+}

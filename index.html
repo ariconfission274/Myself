@@ -4,53 +4,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio (bantest)</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/all.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <div class="container">
-        <!-- Phần logo -->
-        <div class="tab-logo">
-            <img id="main-picture" src="hinh.jpg" alt="">
-            <h1>Ari</h1>
-            <h4> hoc sinh cua Let's Code </h4>
-            <a href="./contact.html"><button>Next</button></a>
-            <div class="icon">
-                <a href="https://www.facebook.com/">
-                    <i class="fa-brands fa-facebook"></i>
-                </a>
-                <a href="https://github.com/">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/">
+    <!-- Section start -->
+    <div class="section">
+        <nav>
+            <h2 class="logo">Portfo<span style="color:aqua">lio</span></h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+               
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
 
-                </a>
-            </div>
+            <a href="#" class="btn">Favorite</a>
+        </nav>
+
+        <div class="content">
+            <h4 style="color: beige;"> MY FINAL COURSE PROJECT </h4>
+            <h1>Hi everyone,</h1>
+            <p>This is my personal introduction website and also my final exam.</p>
         </div>
-        <!-- Phần nội dung -->
-        <div class="tab-content">
-            <h2>ABOUT ME</h2>
-            <h5> Hi everyone, I'm a student and ...</h5>
-            <p>
-                Full name : Nguyen Dang Nhu Quynh (Ari) <br>
-                Age : 17 <br>
-                Gender : Female
 
-            </p>
-            <div>
-                <a href="http://">
-                    <button>Resume</button>
-                </a>
-                <a href="http://">
-                    <button>Portfolio</button>
-                </a>
-            </div>
+        <div class="picture">
+            <img class="picture-main" src="owlblack.png">
         </div>
     </div>
+
+    <!-- About section start -->
+    <section class="about">
+        <div class="main">
+            <img src="https://img.freepik.com/free-photo/dark-grunge-style-scratched-metal-surface_1048-12951.jpg">
+            <div class="about-text">
+                <h2 style="color:beige">About me</h2>
+                <p> overview Information </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- service section start -->
+    <div class="service" style="background-color: #191919;">
+        <div class="tittle">
+            <h2>My Services</h2>
+        </div>
+
+        <div class="box">
+            <div class="card">
+                <i class="fa-duotone fa-bars"></i>
+                <h4>Web Development</h4>
+                <div class="pra">
+                    <p>Content in4</p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#">More</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="card">
+                    <i class="fa-duotone fa-bars"></i>
+                    <h4>Web Development</h4>
+                    <div class="pra">
+                        <p>Content in4</p>
+                        <p style="text-align: center;">
+                            <a class="button" href="#">More</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="card">
+                        <i class="fa-duotone fa-bars"></i>
+                        <h4>Web Development</h4>
+                        <div class="pra">
+                            <p>Content in4</p>
+                            <p style="text-align: center;">
+                                <a class="button" href="#">More</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+<!-- Contact me -->
+    <div class="contact-me">
+        <p>Let Me Get Yu A beautiful Web</p>
+        <a class="button-two" href="#">Hire me</a>
+    </div>
+
+<!-- Footer start -->
+<footer>
+    <p>Ari</p>
+    <p>HTML CSS JAVASCRIPT</p>
+    <div class="social">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-square-github"></i></a>
+        <a href="#"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+    <p class="g-end">These are my social media pages.</p>
+    <p class="end">Thanks for visiting !</p>
+</footer>
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>
